@@ -14,7 +14,7 @@ I have been working as a teacher of English for almost 4 years but one day I rea
 * Creativity
 * Flexibility
 * Responsibility
-## Code Examples
+## Code Example
 ```
 function multiply(a, b){
   return a * b
