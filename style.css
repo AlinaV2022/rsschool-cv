@@ -5,7 +5,7 @@
 body {
     max-width: 1300px;
     margin: 0 auto;
-    background-color: rgb(173, 226, 226);
+    background-color:rgb(227 241 241);
     font-family: serif;
 }
 
@@ -158,17 +158,79 @@ body {
     width: 100%;
 }
 
-.experience li {
-    list-style-type: none;
+.experience li, 
+.experience p {
     font-size: 25px;
     line-height: 35px;
     color: rgb(37, 36, 36);
-    display: flex;
-    justify-content: space-between;
 }
 
-.experience ul {
+.experience p {
+    max-width: 405px;
+}
+
+.experience .education {
+    margin-top: 50px;
+}
+
+.code-example-lang {
+    display: flex;
+    width: 100%;
+    height: 500px;
+    background-color: white;
+}
+
+.languages {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 32px;
+    width: 35%;
+    background-color: #666d70;
+}
+
+.languages h2 {
+    font-size: 31px;
+    border-bottom: 3px solid;
+    border-radius: 2px;
+    text-transform: uppercase;
+    margin-top: 0;
+    color: #9ab396;
+    width: 100%;
+}
+
+.languages li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    font-size: 25px;
+    color: #56c8ea;
+    font-weight: bold;
+}
+
+.languages ul {
     padding-left: 0;
+    width: 100%;
+
+}
+
+.item-container {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+.item {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: #49d5ff;
+    margin-right: 8px;
+}
+
+.item-container .item-empty {
+    background-color: #a7b9be;
 }
 
 .code-example {
@@ -176,10 +238,20 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 65%;
     height: 500px;
     background-color: white;
-    padding: 32px 64px;
+    padding: 0 32px 32px 32px;
+}
+
+.code-example h2 {
+    font-size: 31px;
+    border-bottom: 3px solid;
+    border-radius: 2px;
+    text-transform: uppercase;
+    margin-top: 0;
+    color: #9ab396;
+    width: 100%;
 }
 
 .code-example pre {
@@ -189,13 +261,31 @@ body {
     font-size: 30px;
     width: 100%;
     height: 100%;
-    background-color: rgba(201, 201, 228, 0.5);
-    border-radius: 15px;
+    margin-top: 12px;
+    background-color: #f0f0f0;
 }
 
-.experience-education {
+.footer {
     display: flex;
-    width: 100%;
-    height: 500px;
-    background-color: rgb(137, 180, 228);
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    background-color: #56c8ea;
+    padding: 0 32px;
+    font-size: 20px;
+}
+
+.footer a {
+    display: flex;
+    text-decoration: none;
+    color: black;
+}
+
+.footer-logo {
+    height: 40px;
+    width: auto;
+}
+
+.github-logo {
+    margin-right: 15px;
 }
