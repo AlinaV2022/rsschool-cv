@@ -1,5 +1,5 @@
 # Alina Vosareva
-![image](https://user-images.githubusercontent.com/119854235/205744673-905a322d-8790-49f9-81c0-c24e524e5728.png)
+![image](https://user-assets.githubusercontent.com/119854235/205744673-905a322d-8790-49f9-81c0-c24e524e5728.png)
 ## Contact Info
 * Phone: *+375 29 202-06-93*
 * E-mail: *vosareva1@gmail.com*

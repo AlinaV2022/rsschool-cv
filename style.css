@@ -13,7 +13,7 @@ body {
     font-family: serif;
 }
 
-header {
+.header {
     display: flex;
     justify-content: right;
     align-items: center;
@@ -23,11 +23,11 @@ header {
     font-size: 20px;
 }
 
-header ul {
+.header ul {
     display: flex;
 }
 
-header li {
+.header li {
     list-style-type: none;
     font-weight: bold;
     margin-right: 7px;
@@ -35,22 +35,22 @@ header li {
     font-size: 20px;
 }
 
-header li a {
+.header li a {
     padding: 5px 10px;
     transition: background 0.5s;
     border-radius: 20px;
 }
 
 
-header li a:hover {
+.header li a:hover {
     background-color: #56c8ea;
 }
 
-header .last-item {
+.header .last-item {
     margin-right: 0;
 }
 
-header a {
+.header a {
     text-decoration: none;
     color: white;
 }
