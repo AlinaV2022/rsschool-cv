@@ -4,8 +4,158 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CV</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link rel="icon" href="assets/ico/cv-icon.ico">
 </head>
 <body>
+    <header class="header">
+        <nav>
+            <ul>
+                <li><a href="#contacts">Contact Info</a></li>
+                <li><a href="#personal-info">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#education">Education</a></li>
+                <li class="last-item"><a href="#languages">Languages</a></li>
+                <li><a href="#code-example">Code Example</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="main-img">
+            <div class="main-photo">
+                <div class="photo-frame">
+                    <img src="assets/jpg/main-photo.jpg" alt="Main photo"/>
+                </div>
+                <h1>Alina Vosareva</h1>
+                <p>RS-school student</p>
+            </div>
+            <div id="personal-info" class="main-info">
+                <div>
+                    <h2>About Me</h2>
+                    <p>
+                        I have been working as a teacher of English for almost 4 years but one day I realized that I could achieve more. 
+                        I adore discovering something new. In this case my passion [English] will be a good perk.  
+                        The idea of stepping up the career ladder attracts me in IT sphere that's why I'm taking my chance at The Rolling Scopes School.
+                    </p>
+                </div>
+                <div id="skills">
+                    <h2>Skills</h2>
+                    <ul>
+                        <li>International Communication</li>
+                        <li>Analytical abilities</li>
+                        <li>Leadership</li>
+                        <li>Creativity</li>
+                        <li>Flexibility</li>
+                        <li>Responsibility</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="contacts-experience">
+            <div id="contacts" class="contacts">
+                <h2>Contact Info</h2>
+                <ul>
+                    <li>
+                        <img src="assets/png/phone-icon.png" alt="Phone Icon"/>
+                        <h3>Phone</h3>
+                        <p>+375 29 202-06-93</p>
+                    </li>
+                    <li>
+                        <img src="assets/png/mail-icon.png" alt="E-mail Icon"/>
+                        <h3>E-mail</h3>
+                        <a href="mailto:vosareva1@gmail.com">vosareva1@gmail.com</a>
+                    </li>
+                    <li>
+                        <img src="assets/png/discord-icon.png" alt="Discord Icon"/>
+                        <h3>Discord</h3>
+                        <a href="https://discordapp.com/users/917854204964528178">@AlinaV2022</a>
+                    </li>
+                    <li>
+                        <img src="assets/png/telegram-icon.png" alt="Telegram Icon"/>
+                        <h3>Telegram</h3>
+                        <a href="https://t.me/lina_luna44">@lina_luna44</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="experience">
+                <h2 id="experience">Experience</h2>
+                <ul>
+                    <li><i>Client Communication Specialist</i> at Star Call Company</li>
+                    <li><i>Teacher</i> at Linguistic Humanities College and Secondary School №201</li>
+                    <li><i>Tutor</i> at Online English School "New Skill"</li>
+                    <li><i>Translator</i> for Charity Organisation "SOS Children’s Villages"</li>
+                </ul>
+                <h2 id="education" class="education">Education</h2>
+                <p>
+                    Minsk State Linguistic University, 2022  
+                    Modern Foreign Languages (Teaching)   
+                </p>
+            </div>
+        </section>
+
+        <section class="code-example-lang">
+            <div id="languages" class="languages">
+                <h2>Languages</h2>
+                <ul>
+                    <li>
+                        <p>Russian (Native)</p>
+                        <div class="item-container">
+                            <div class="item"></div>
+                            <div class="item"></div>
+                            <div class="item"></div>
+                            <div class="item"></div>
+                            <div class="item"></div>
+                            <div class="item"></div>
+                        </div>
+                    </li>
+                    <li>
+                        <p>English (C1)</p>
+                        <div class="item-container">
+                            <div class="item"></div>
+                            <div class="item"></div>
+                            <div class="item"></div>
+                            <div class="item"></div>
+                            <div class="item"></div>
+                            <div class="item item-empty"></div>
+                        </div>
+                    </li>
+                    <li>
+                        <p>German (A2)</p>
+                        <div class="item-container">
+                            <div class="item"></div>
+                            <div class="item"></div>
+                            <div class="item item-empty"></div>
+                            <div class="item item-empty"></div>
+                            <div class="item item-empty"></div>
+                            <div class="item item-empty"></div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div id="code-example" class="code-example">
+                <h2>Code Example</h2>
+                <pre>
+                    <code>
+    function multiply(a, b){
+        return a * b
+    }
+                    </code>
+                </pre>  
+            </div>
+            
+        </section>
+    </main>
+    <footer class="footer">
+        <a href="https://github.com/AlinaV2022" target="_blank">
+            <img class="github-logo" src="assets/svg/github-icon.svg" alt="Github icon"/>
+            <p>AlinaV2022</p>
+        </a>
+        <p>© 2022</p>
+        <a href="https://rs.school/js/" target="_blank">
+            <img class="footer-logo"src="assets/svg/rs-school-logo.svg" alt="RS School logo">
+        </a>
+    </footer>
 </body>
 </html>
